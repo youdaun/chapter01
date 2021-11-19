@@ -7,17 +7,32 @@ public class Ex03 {
 		int[] intArray = new int[3];
 		
 		intArray[0] = 3;
-		intArray[2] = 13;
 		intArray[1] = 7;
+		intArray[2] = 13;
 		
-		System.out.println(intArray[1]);
+		//System.out.println(intArray[1]);
 		
-		for(int i=0; i<3; i++) {
+		//int[] intArray = {3,7,13};
+		
+		//int[] intArray = new int[] {3,7,13};
+		
+		for(int i=0; i<intArray.length; i++) {
 			System.out.println(intArray[i]);
 		}
 		
-		
+		/*
 		System.out.println("============================");
+		
+		char[] charArray = new char[3];
+		
+		charArray[0] = 'A';
+		charArray[1] = '한';
+		charArray[2] = 'z';
+		
+		for(int i=0; i<3; i++) {
+			System.out.println(charArray[i]);
+		}
+		*/
 
 	}
 
